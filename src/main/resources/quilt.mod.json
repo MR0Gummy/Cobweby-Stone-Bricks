@@ -1,0 +1,40 @@
+{
+	"schema_version": 1,
+	"quilt_loader": {
+		"group": "com.mrgummy",
+		"id": "cobweby_stone_bricks",
+		"version": "${version}",
+		"metadata": {
+			"name": "Cobweby Stone Bricks",
+			"description": "Adds a new block the §nCobweby stone bricks",
+			"contributors": {
+				"mrgummy": "Owner"
+			},
+			"contact": {
+				"homepage": "https://example.com/",
+				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
+				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+			},
+			"icon": "assets/cobweby_stone_bricks/icon.png"
+		},
+		"intermediate_mappings": "net.fabricmc:intermediary",
+		"entrypoints": {
+			"init": "com.mrgummy.cobweby_stone_bricks.CobwebyStoneBricks"
+		},
+		"depends": [
+			{
+				"id": "quilt_loader",
+				"versions": ">=0.19.1"
+			},
+			{
+				"id": "quilted_fabric_api",
+				"versions": ">=7.0.2"
+			},
+			{
+				"id": "minecraft",
+				"versions": ">=1.20"
+			}
+		]
+	},
+	"mixin": "cobweby_stone_bricks.mixins.json"
+}
