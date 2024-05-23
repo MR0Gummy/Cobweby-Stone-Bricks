@@ -1,3 +1,8 @@
 {
-  "block.cobweby_stone_bricks.cobweby_stone_bricks": "Cobweby Stone Bricks"
+  "block.cobweby_stone_bricks.cobweby_stone_bricks": "Cobweby Stone Bricks",
+  "block.cobweby_stone_bricks.cobweby_deepslate_bricks": "Cobweby Deepslate Bricks",
+  "block.cobweby_stone_bricks.cobweby_deepslate_tiles": "Cobweby Deepslate Tiles",
+  "block.cobweby_stone_bricks.cobweby_polished_blackstone_bricks": "Cobweby Polished blackstone Bricks",
+  "block.cobweby_stone_bricks.cobweby_nether_bricks": "Cobweby Nether Bricks"
+
 }
